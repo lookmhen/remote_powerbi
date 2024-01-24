@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PowerBI </title>
+    
+</head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+<body>
+    <div class="container">
+		<h1>PowerBI Self-Install (Demo)</h1>
+        <input type="text" id="valueInput" placeholder="Computername Here!!">
+		<div style="margin-bottom: 20px;"></div>
+        <button id="sendButton">Submit</button>
+        <p id="statusMessage"></p>
+    </div>
+    
+	<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
